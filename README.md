@@ -1,4 +1,2 @@
-# Olimpiada
-Olimpiada
 # NetOrch
-NetORch
+NetOrch
