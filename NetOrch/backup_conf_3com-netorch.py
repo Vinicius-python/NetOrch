@@ -61,6 +61,6 @@ def backup_switch(ip, username, password):
 with open('/usr/local/scripts/routers_3com-netorch', 'r') as routers_file:
     for line in routers_file:
         name, ip = line.strip().split(':')
-        username = 'suporterg'
-        password = 'rg#support'
+        username = 'admin'
+        password = 'admin'
         backup_switch(ip, username, password)
