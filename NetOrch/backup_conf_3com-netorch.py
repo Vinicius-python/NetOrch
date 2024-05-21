@@ -9,7 +9,7 @@ timestamp_format = '%d-%m-%Y-%Hh-%Mm-%Ss'
 current_timestamp = datetime.datetime.now().strftime(timestamp_format)
 
 # Nome do arquivo de log com o timestamp
-log_filename = f'/var/www/html/riogaleao/3com/backup_3com_log/backup_{current_timestamp}-unit1.log'
+log_filename = f'/var/www/html/netorch/3com/backup_3com_log/backup_{current_timestamp}-unit1.log'
 
 # Configurar o sistema de logging
 log_format = '%(asctime)s - %(levelname)s - %(message)s'
