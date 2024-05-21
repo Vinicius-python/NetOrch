@@ -10,7 +10,7 @@ current_timestamp = datetime.datetime.now().strftime(timestamp_format)
 
 # Nome do arquivo de log com o timestamp
 #log_filename = f'/usr/local/scripts/backup_aruba_log/backup_aruba_{current_timestamp}.log'
-log_filename = f'/var/www/html/riogaleao/aruba/backup_aruba_log/backup_aruba_{current_timestamp}.log'
+log_filename = f'/var/www/html/netorch/aruba/backup_aruba_log/backup_aruba_{current_timestamp}.log'
 
 # Configurar o sistema de logging
 log_format = '%(asctime)s - %(levelname)s - %(message)s'
