@@ -70,6 +70,6 @@ def backup_switch(ip, username, password, output_file):
 with open('/usr/local/scripts/routers_huawei-netorch', 'r') as routers_file:
     for line in routers_file:
         name, ip = line.strip().split(':')
-        username = 'imc'
-        password = 'Ziva@imc'
+        username = 'admin'
+        password = 'admin'
         backup_switch(ip, username, password, f"/var/www/html/netorch/huawei/config-backup_{name}.{current_timestamp}.cfg")
