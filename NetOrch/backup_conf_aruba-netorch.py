@@ -75,6 +75,6 @@ def backup_switch(ip, username, password, output_file):
 with open('/usr/local/scripts/routers_aruba-netorch', 'r') as routers_file:
     for line in routers_file:
         name, ip = line.strip().split(':')
-        username = 'suporterg'
-        password = 'rg#support'
+        username = 'admin'
+        password = 'admin'
         backup_switch(ip, username, password, f"/var/www/html/netorch/aruba/config-backup_{name}.{current_timestamp}.cfg")
