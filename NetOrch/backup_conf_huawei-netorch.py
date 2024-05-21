@@ -9,7 +9,7 @@ timestamp_format = '%d-%m-%Y-%Hh-%Mm-%Ss'
 current_timestamp = datetime.datetime.now().strftime(timestamp_format)
 
 # Nome do arquivo de log com o timestamp
-log_filename = f'/var/www/html/riogaleao/huawei/backup_huawei_log/backup_huawei_{current_timestamp}.log'
+log_filename = f'/var/www/html/netorch/huawei/backup_huawei_log/backup_huawei_{current_timestamp}.log'
 
 # Configurar o sistema de logging
 log_format = '%(asctime)s - %(levelname)s - %(message)s'
